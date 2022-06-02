@@ -1,38 +1,93 @@
-.App {
-  text-align: center;
+#special-font {
+    color: white;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.nav.navbar-nav.navbar-right li a {
+    color: white;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+@media (max-width: 1400px) {
+    .girl-fly {
+        transform: rotate(-10deg) translate(-50%, -50%);
+        position: fixed;
+        left: 65%;
+        top: 50%;
+
+    }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+@media (max-width: 1200px) {
+    .girl-fly {
+        transform: rotate(-20deg) translate(-50%, -50%);
+        position: fixed;
+        left: 65%;
+        top: 50%;
+
+    }
 }
 
-.App-link {
-  color: #61dafb;
+@media (max-width: 1000px) {
+    .girl-fly {
+        transform: rotate(-30deg) translate(-50%, -50%);
+        position: fixed;
+        left: 65%;
+        top: 50%;
+
+    }
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
+@media (max-width: 800px) {
+    .girl-fly {
+        transform: rotate(-40deg) translate(-50%, -50%);
+        position: fixed;
+        left: 65%;
+        top: 50%;
+
+    }
+
+    #meteorbg {
+        display: none;
+    }
+}
+
+@media (max-width: 600px) {
+    .girl-fly {
+        transform: rotate(-50deg) translate(-50%, -50%);
+        position: fixed;
+        left: 65%;
+        top: 50%;
+
+    }
+}
+
+@media (max-width: 400px) {
+    .girl-fly {
+        transform: rotate(-60deg) translate(-50%, -50%);
+        position: fixed;
+        left: 65%;
+        top: 50%;
+
+    }
+}
+
+
+.hover-effect1 ul li {
+    display: inline-block;
+}
+
+.hover-effect1 ul li a {
+    display: inline-block;
+    -webkit-transition: all .6s ease;
+    -moz-transition: all .6s ease;
+    -ms-transition: all .6s ease;
+    -o-transition: all .6s ease;
+    transition: all .6s ease;
+}
+
+.hover-effect1 ul li:hover a {
+    -moz-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
     transform: rotate(360deg);
-  }
 }
