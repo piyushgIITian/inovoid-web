@@ -7,22 +7,21 @@ export default function Header() {
   return (
     <div style={{zIndex:"5"}}>
       <Navbar expand="lg" className="navbar-dark" fixed="top" style={{
-        background: "linear-gradient(180deg, #000000 54.06%, rgba(0, 0, 0, 0) 100%)",
+        background: "linear-gradient(180deg, #000000 94.06%, rgba(0, 0, 0, 0) 100%)",
         borderRadius: "2px"
       }}>
         <Container>
           <Navbar.Brand href="#home"><img
           alt=""
           src={inovoid}
-          width="276"
-          height="104"
-          className="d-inline-block align-top"
+          width="150px"
+          className="d-inline-block align-top" style={{ marginLeft: "0px" }}
         />{' '}</Navbar.Brand>
           <div style={{ marginRight: "0px" }}>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
               <Nav className="me-auto" style={{ gap: "40px" }}>
-                <Nav.Link href="#home">PROJECT</Nav.Link>
+                <Nav.Link href="#project">PROJECT</Nav.Link>
                 <Nav.Link href="#link">TASK</Nav.Link>
 
                 <Nav.Link href="#home">ABOUT US</Nav.Link>
