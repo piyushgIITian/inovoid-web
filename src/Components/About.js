@@ -39,7 +39,7 @@ export default function About() {
             flexDirection: "column",
             justifyContent: "center",
             alignItems:"center",
-            marginBottom:"50px"
+            marginBottom:"200px"
             
         }}>
             <div id="project" style={ rowStyle }>

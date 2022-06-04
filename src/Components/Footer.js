@@ -15,7 +15,7 @@ export default function Footer() {
                     <div className="sub-line">
                         SUBSCRIBE
                     </div>
-                    <Form className="d-flex" >
+                    <Form className="d-flex flex-wrap" >
                         <Form.Group controlId="formBasicEmail">
                             <Form.Control className="sub-button" type="email" placeholder="Enter valid email address" />
                         </Form.Group>
@@ -43,7 +43,7 @@ export default function Footer() {
                     </div>
                 </div>
                 <div className="column-2">
-                    <div className="column-heading">FOLLOW US</div>
+                    <div className="column-heading" style={{wordWrap:"break-word"}}>FOLLOW US</div>
                     <SocialMenu width="40px" alignItems="flex-start" style={{ margin: "50px" }} />
                 </div>
             </div>
