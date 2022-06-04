@@ -25,6 +25,8 @@ const firstFlex = {
     height: "100vh",
     alignItems: "center",
     justifyContent: "center",
+    position: "relative",
+    overflow: "hidden",
     
 };
 const socialStyle = {
