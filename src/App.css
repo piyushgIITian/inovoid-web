@@ -112,9 +112,9 @@
     text-align: left;
     color: #F1F3F5;
 }
-/* body{
+body,html{
     overflow-x: hidden;
-} */
+}
 
 .main-body {
     overflow-x: hidden;
