@@ -2,8 +2,8 @@ import React from 'react';
 
 export default function Info() {
     return (
-        <div className="hand-bg">
-            <div className="info-text">
+        <div className="hand-bg" id="info" >
+            <div className="info-text" >
 
                 <div className='in'>
                     It’s such a pain lifting motion controllers everytime we get into VR mode...

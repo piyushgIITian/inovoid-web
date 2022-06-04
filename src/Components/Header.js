@@ -5,7 +5,7 @@ import inovoid from "../Assets/Inovoid.png"
 
 export default function Header() {
   return (
-    <div style={{zIndex:"5"}}>
+    <div style={{zIndex:"5"}} id="home">
       <Navbar expand="lg" className="navbar-dark" fixed="top" style={{
         background: "linear-gradient(180deg, #000000 94.06%, rgba(0, 0, 0, 0) 100%)",
         borderRadius: "2px"
@@ -22,10 +22,8 @@ export default function Header() {
             <Navbar.Collapse id="basic-navbar-nav">
               <Nav className="me-auto" style={{ gap: "40px" }}>
                 <Nav.Link href="#project">PROJECT</Nav.Link>
-                <Nav.Link href="#link">TASK</Nav.Link>
-
-                <Nav.Link href="#home">ABOUT US</Nav.Link>
-                <Nav.Link href="#link">CONTACT</Nav.Link>
+                <Nav.Link href="#info">ABOUT US</Nav.Link>
+                <Nav.Link href="https://rshifts-testweb.vercel.app/contact-us">CONTACT</Nav.Link>
 
               </Nav>
             </Navbar.Collapse>
