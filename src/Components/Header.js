@@ -1,6 +1,6 @@
 import React from 'react'
 import { Container, Nav, Navbar } from 'react-bootstrap'
-import "../app.css"
+import "../App.css"
 import inovoid from "../Assets/Inovoid.png"
 
 export default function Header() {

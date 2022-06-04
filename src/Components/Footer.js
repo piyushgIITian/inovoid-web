@@ -2,7 +2,7 @@ import React from 'react'
 import { Button, Form, Image } from 'react-bootstrap'
 import inovoid from '../Assets/Inovoid.png'
 import SocialMenu from './SocialMenu';
-import "../app.css"
+import "../App.css"
 
 export default function Footer() {
     return (

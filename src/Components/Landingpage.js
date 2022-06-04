@@ -3,7 +3,7 @@ import Header from './Header';
 import meteorbg from "../Assets/meteorbg.png";
 import { Container, Image } from 'react-bootstrap';
 import girlFly from "../Assets/girl-fly.png";
-import "../app.css";
+import "../App.css";
 import SocialMenu from './SocialMenu';
 import starsLine from "../Assets/starsline.png";
 import moon from "../Assets/moon.svg";

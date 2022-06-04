@@ -3,7 +3,7 @@ import { Image } from 'react-bootstrap'
 import img1 from "../Assets/img1.svg"
 import img2 from "../Assets/img2.svg"
 import img3 from "../Assets/img3.svg"
-import "../app.css"
+import "../App.css"
 
 const aboutTextStyle = {
     maxWidth: "500px",
