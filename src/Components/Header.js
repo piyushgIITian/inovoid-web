@@ -7,7 +7,7 @@ export default function Header() {
   return (
     <div style={{zIndex:"5"}} id="home">
       <Navbar expand="lg" className="navbar-dark" fixed="top" style={{
-        background: "linear-gradient(180deg, #000000 94.06%, rgba(0, 0, 0, 0) 100%)",
+        background: "linear-gradient(180deg, #000000 54.06%, rgba(0, 0, 0, 0) 100%)",
         borderRadius: "2px"
       }}>
         <Container>
@@ -20,10 +20,10 @@ export default function Header() {
           <div style={{ marginRight: "0px" }}>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
-              <Nav className="me-auto" style={{ gap: "40px" }}>
-                <Nav.Link href="#project">PROJECT</Nav.Link>
-                <Nav.Link href="#info">ABOUT US</Nav.Link>
-                <Nav.Link href="https://rshifts-testweb.vercel.app/contact-us">CONTACT</Nav.Link>
+              <Nav className="me-auto" style={{ gap: "40px"}}>
+                <Nav.Link style={{color:"white"}} href="#project">PROJECT</Nav.Link>
+                <Nav.Link style={{color:"white"}} href="#info">ABOUT US</Nav.Link>
+                <Nav.Link style={{color:"white"}} href="https://rshifts-testweb.vercel.app/contact-us">CONTACT</Nav.Link>
 
               </Nav>
             </Navbar.Collapse>

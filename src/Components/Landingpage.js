@@ -24,7 +24,8 @@ const firstFlex = {
     flexDirection: "row",
     height: "100vh",
     alignItems: "center",
-    justifyContent: "center"
+    justifyContent: "center",
+    
 };
 const socialStyle = {
     position: "absolute",
@@ -88,9 +89,9 @@ const meteorShowerStyle = {
 }
 export default function Landingpage() {
     return (
-        <div style={{ backgroundColor: "black" }} >
+        <div className="main-body"  >
             <Header />
-            <div style={firstFlex}>
+            <div className="first-flex" style={firstFlex}>
                 <div style={socialStyle}>
                     <SocialMenu />
                 </div>

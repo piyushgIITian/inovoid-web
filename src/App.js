@@ -5,7 +5,7 @@ import Landingpage from "./Components/Landingpage";
 
 function App() {
   return (
-    <div style={{backgroundColor:"black"}}>
+    <div style={{backgroundColor:"black",overflowX:"hidden"}}>
       <BrowserRouter>
       <Routes>
           
